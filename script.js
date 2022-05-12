@@ -1,27 +1,27 @@
-const form = document.getElementById("my-form")
-console.log(form);
+// const form = document.getElementById("my-form")
+// console.log(form);
 
-const nodeItems =  document.querySelectorAll(".item");
-const colItems = document.getElementsByClassName("item");
-// console.log(document.getElementsByTagName("li"));
-// console.log(([]));
+// const nodeItems =  document.querySelectorAll(".item");
+// const colItems = document.getElementsByClassName("item");
+// // console.log(document.getElementsByTagName("li"));
+// // console.log(([]));
 
-nodeItems.forEach(item => console.log(item))
+// nodeItems.forEach(item => console.log(item))
 
-//dom manipulation
-const ul = document.querySelector("#items")
-const btn = document.querySelector(".btn")
-btn.style.backgroundColor = "red"
-btn.style.textTransform = "uppercase"
-btn.style.color = "yellow"
+// //dom manipulation
+// const ul = document.querySelector("#items")
+// const btn = document.querySelector(".btn")
+// btn.style.backgroundColor = "red"
+// btn.style.textTransform = "uppercase"
+// btn.style.color = "yellow"
 
-btn.addEventListener("click", e => {
-    e.preventDefault()
-    ul.firstChild.textContent = "html"
-    ul.children[1].innerText = "CSS"
-    ul.lastElementChild.innerHTML = "<h1>javascript</h1>"
-    console.log(e);
-})
+// btn.addEventListener("click", e => {
+//     e.preventDefault()
+//     ul.firstChild.textContent = "html"
+//     ul.children[1].innerText = "CSS"
+//     ul.lastElementChild.innerHTML = "<h1>javascript</h1>"
+//     console.log(e);
+// })
 
 
 //final form
